@@ -6,8 +6,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 For each record it is provided:
-======================================
-
+------------------------------
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
 - A 561-feature vector with time and frequency domain variables. 
@@ -75,6 +74,7 @@ Units: Variables are normalized and bounded within [-1,1].
 
 The variables are the mean of the mean and standard deviation for each feature grouped by activity and subject.
 
+<<<<<<< HEAD
 <table>
 <tr>
 <th>column</th><th>name</th><th>type</th><th>comment</th>
@@ -148,3 +148,74 @@ The variables are the mean of the mean and standard deviation for each feature g
 <tr><td>67</td><td>fBodyBodyGyroJerkMagmean	num</td></tr>
 <tr><td>68</td><td>fBodyBodyGyroJerkMagstd</td><td>num</td></tr>
 </table>
+=======
+column	name				type		comment
+1  	activity              		factor		Levels: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+2  	subjectid               	int		Id of the subject who carried out the experiment
+3  	tBodyAccmeanX           	num
+4  	tBodyAccmeanY           	num
+5  	tBodyAccmeanZ           	num
+6  	tBodyAccstdX            	num
+7  	tBodyAccstdY            	num
+8  	tBodyAccstdZ            	num
+9  	tGravityAccmeanX        	num
+10 	tGravityAccmeanY        	num
+11 	tGravityAccmeanZ        	num
+12 	tGravityAccstdX         	num
+13 	tGravityAccstdY         	num
+14 	tGravityAccstdZ         	num
+15 	tBodyAccJerkmeanX       	num
+16 	tBodyAccJerkmeanY       	num
+17 	tBodyAccJerkmeanZ       	num
+18 	tBodyAccJerkstdX        	num
+19 	tBodyAccJerkstdY        	num
+20 	tBodyAccJerkstdZ        	num
+21 	tBodyGyromeanX          	num
+22 	tBodyGyromeanY          	num
+23 	tBodyGyromeanZ          	num
+24 	tBodyGyrostdX           	num
+25 	tBodyGyrostdY           	num
+26 	tBodyGyrostdZ           	num
+27 	tBodyGyroJerkmeanX      	num
+28 	tBodyGyroJerkmeanY      	num
+29 	tBodyGyroJerkmeanZ      	num
+30 	tBodyGyroJerkstdX       	num
+31 	tBodyGyroJerkstdY       	num
+32 	tBodyGyroJerkstdZ       	num
+33 	tBodyAccMagmean         	num
+34 	tBodyAccMagstd          	num
+35 	tGravityAccMagmean      	num
+36 	tGravityAccMagstd       	num
+37 	tBodyAccJerkMagmean     	num
+38 	tBodyAccJerkMagstd      	num
+39 	tBodyGyroMagmean        	num
+40 	tBodyGyroMagstd         	num
+41 	tBodyGyroJerkMagmean    	num
+42 	tBodyGyroJerkMagstd     	num
+43 	fBodyAccmeanX           	num
+44 	fBodyAccmeanY           	num
+45 	fBodyAccmeanZ           	num
+46 	fBodyAccstdX            	num
+47 	fBodyAccstdY            	num
+48 	fBodyAccstdZ            	num
+49 	fBodyAccJerkmeanX       	num
+50 	fBodyAccJerkmeanY       	num
+51 	fBodyAccJerkmeanZ       	num
+52 	fBodyAccJerkstdX        	num
+53 	fBodyAccJerkstdY        	num
+54 	fBodyAccJerkstdZ        	num
+55 	fBodyGyromeanX          	num
+56 	fBodyGyromeanY          	num
+57 	fBodyGyromeanZ          	num
+58 	fBodyGyrostdX           	num
+59 	fBodyGyrostdY           	num
+60 	fBodyGyrostdZ           	num
+61 	fBodyAccMagmean         	num
+62 	fBodyAccMagstd          	num
+63 	fBodyBodyAccJerkMagmean 	num
+64 	fBodyBodyAccJerkMagstd  	num
+65 	fBodyBodyGyroMagmean    	num
+66 	fBodyBodyGyroMagstd     	num
+67 	fBodyBodyGyroJerkMagmean	num
+68 	fBodyBodyGyroJerkMagstd 	num
+>>>>>>> 041a99f6860e4a8b61bc38c0da8872753979c10a

@@ -1,6 +1,6 @@
-# prereq install.packages("dplyr"), library(dplyr)
+# prereq install.packages("dplyr"), 
 
-downloadData <- function(outcome, num = "best") {
+downloadData <- function() {
     if (!file.exists("data")) {
         dir.create("data")
     }
