@@ -75,6 +75,7 @@ data <- data[, !(names(data) %in% "activityid")]
 
 # cleanup column names
 colnames(data) <- make.names(names(data), unique=TRUE)
+colnames(data) <- gsub("\\.", "", names(data))
 
 # create final dataset with the with the average of each variable for each activity and each subject.
 finaldata <- group_by(data, activity, subjectid)
