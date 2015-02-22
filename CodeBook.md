@@ -72,7 +72,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 The dataset was created by:
 
 1. The test data was read into a data frame. The subject id and activity id was added to the data frame.
-2. The training data was read into a data frame in the way.
+2. The training data was read into a data frame in same the way.
 3. The test and traing data was combined into one data frame.
 4. The column names was read from the file features.txt and added to the data frame.
 5. Only the columns with std() or mean() in the name and subject id and activity id are kept. All other columns are removed.
