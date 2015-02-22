@@ -1,5 +1,5 @@
 # Cleaning data projekt
-The script creates the independent tidy data set used in the course project for the course Getting and Cleaning Data
+The script creates the tidy data set used in the course project for the course Getting and Cleaning Data
 
 ##Prerequisites
 The scripts depends on the dplyr package. If it's not already installed install it with the commands
@@ -10,7 +10,7 @@ The scripts depends on the dplyr package. If it's not already installed install 
 Copy the file run_analysis.R to your R working directory. Use the command getwd() to find out where the working directory is
 and setwd(dir) to set it. Load the file run_analysis.R
 ```
->source("run_analysis.R")
+> source("run_analysis.R")
 ```
 
 ##Download data
