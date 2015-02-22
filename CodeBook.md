@@ -80,20 +80,20 @@ The variables are the mean of the mean and standard deviation for each feature g
 </tr>
 <tr><td>1</td><td>activity</td><td>factor</td><td>Levels: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS</td></tr>
 <tr><td>2</td><td>subjectid</td><td>int</td><td>Id of the subject who carried out the experiment</td></tr>
-<tr><td>3</td><td>tBodyAccmeanX</td><td>num</td><td> </td></tr>
-<tr><td>4</td><td>tBodyAccmeanY</td><td>num</td>td> </td></tr>
-<tr><td>5</td><td>tBodyAccmeanZ</td><td>num</td>td> </td></tr>
-<tr><td>6</td><td>tBodyAccstdX</td><td>num</td>td> </td></tr>
-<tr><td>7</td><td>tBodyAccstdY</td><td>num</td>td> </td></tr>
-<tr><td>8</td><td>tBodyAccstdZ</td><td>num</td>td> </td></tr>
-<tr><td>9</td><td>tGravityAccmeanX</td><td>num</td>td> </td></tr>
-<tr><td>10</td><td>tGravityAccmeanY</td><td>num</td>td> </td></tr>
-<tr><td>11</td><td>tGravityAccmeanZ</td><td>num</td>td> </td></tr>
-<tr><td>12</td><td>tGravityAccstdX</td><td>num</td>td> </td></tr>
-<tr><td>13</td><td>tGravityAccstdY</td><td>num</td>td> </td></tr>
-<tr><td>14</td><td>tGravityAccstdZ</td><td>num</td>td> </td></tr>
-<tr><td>15</td><td>tBodyAccJerkmeanX</td><td>num</td>td> </td></tr>
-<tr><td>16</td><td>tBodyAccJerkmeanY</td><td>num</td>td> </td></tr>
+<tr><td>3</td><td>tBodyAccmeanX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>4</td><td>tBodyAccmeanY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>5</td><td>tBodyAccmeanZ</td><td>num</td><td>xx&nbsp;</td></tr>
+<tr><td>6</td><td>tBodyAccstdX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>7</td><td>tBodyAccstdY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>8</td><td>tBodyAccstdZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>9</td><td>tGravityAccmeanX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>10</td><td>tGravityAccmeanY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>11</td><td>tGravityAccmeanZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>12</td><td>tGravityAccstdX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>13</td><td>tGravityAccstdY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>14</td><td>tGravityAccstdZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>15</td><td>tBodyAccJerkmeanX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>16</td><td>tBodyAccJerkmeanY</td><td>num</td></tr>
 <tr><td>17</td><td>tBodyAccJerkmeanZ</td><td>num</td></tr>
 <tr><td>18</td><td>tBodyAccJerkstdX</td><td>num</td></tr>
 <tr><td>19</td><td>tBodyAccJerkstdY</td><td>num</td></tr>
