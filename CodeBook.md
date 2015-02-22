@@ -26,47 +26,47 @@ These signals were used to estimate variables of the feature vector for each pat
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
 * tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+* mean(): Mean value
+* std(): Standard deviation
+* mad(): Median absolute deviation 
+* max(): Largest value in array
+* min(): Smallest value in array
+* sma(): Signal magnitude area
+* energy(): Energy measure. Sum of the squares divided by the number of values. 
+* iqr(): Interquartile range 
+* entropy(): Signal entropy
+* arCoeff(): Autorregresion coefficients with Burg order equal to 4
+* correlation(): correlation coefficient between two signals
+* maxInds(): index of the frequency component with largest magnitude
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* skewness(): skewness of the frequency domain signal 
+* kurtosis(): kurtosis of the frequency domain signal 
+* bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+* angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+* gravityMean
+* tBodyAccMean
+* tBodyAccJerkMean
+* tBodyGyroMean
+* tBodyGyroJerkMean
 
 ##Code book
 
@@ -74,28 +74,27 @@ Units: Variables are normalized and bounded within [-1,1].
 
 The variables are the mean of the mean and standard deviation for each feature grouped by activity and subject.
 
-<<<<<<< HEAD
 <table>
 <tr>
 <th>column</th><th>name</th><th>type</th><th>comment</th>
 </tr>
 <tr><td>1</td><td>activity</td><td>factor</td><td>Levels: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS</td></tr>
 <tr><td>2</td><td>subjectid</td><td>int</td><td>Id of the subject who carried out the experiment</td></tr>
-<tr><td>3</td><td>tBodyAccmeanX</td><td>num</td></tr>
-<tr><td>4</td><td>tBodyAccmeanY</td><td>num</td></tr>
-<tr><td>5</td><td>tBodyAccmeanZ</td><td>num</td></tr>
-<tr><td>6</td><td>tBodyAccstdX</td><td>num</td></tr>
-<tr><td>7</td><td>tBodyAccstdY</td><td>num</td></tr>
-<tr><td>8</td><td>tBodyAccstdZ</td><td>num</td></tr>
-<tr><td>9</td><td>tGravityAccmeanX</td><td>num</td></tr>
-<tr><td>10</td><td>tGravityAccmeanY</td><td>num</td></tr>
-<tr><td>11</td><td>tGravityAccmeanZ</td><td>num</td></tr>
-<tr><td>12</td><td>tGravityAccstdX</td><td>num</td></tr>
-<tr><td>13</td><td>tGravityAccstdY</td><td>num</td></tr>
-<tr><td>14</td><td>tGravityAccstdZ</td><td>num</td></tr>
-<tr><td>15</td><td>tBodyAccJerkmeanX</td><td>num</td></tr>
-<tr><td>16</td><td>tBodyAccJerkmeanY</td><td>num</td></tr>
-<tr><td>17 <tr><td>tBodyAccJerkmeanZ</td><td>num</td></tr>
+<tr><td>3</td><td>tBodyAccmeanX</td><td>num</td><td></td></tr>
+<tr><td>4</td><td>tBodyAccmeanY</td><td>num</td>td></td></tr>
+<tr><td>5</td><td>tBodyAccmeanZ</td><td>num</td>td></td></tr>
+<tr><td>6</td><td>tBodyAccstdX</td><td>num</td>td></td></tr>
+<tr><td>7</td><td>tBodyAccstdY</td><td>num</td>td></td></tr>
+<tr><td>8</td><td>tBodyAccstdZ</td><td>num</td>td></td></tr>
+<tr><td>9</td><td>tGravityAccmeanX</td><td>num</td>td></td></tr>
+<tr><td>10</td><td>tGravityAccmeanY</td><td>num</td>td></td></tr>
+<tr><td>11</td><td>tGravityAccmeanZ</td><td>num</td>td></td></tr>
+<tr><td>12</td><td>tGravityAccstdX</td><td>num</td>td></td></tr>
+<tr><td>13</td><td>tGravityAccstdY</td><td>num</td>td></td></tr>
+<tr><td>14</td><td>tGravityAccstdZ</td><td>num</td>td></td></tr>
+<tr><td>15</td><td>tBodyAccJerkmeanX</td><td>num</td>td></td></tr>
+<tr><td>16</td><td>tBodyAccJerkmeanY</td><td>num</td>td></td></tr>
+<tr><td>17</td><td>tBodyAccJerkmeanZ</td><td>num</td></tr>
 <tr><td>18</td><td>tBodyAccJerkstdX</td><td>num</td></tr>
 <tr><td>19</td><td>tBodyAccJerkstdY</td><td>num</td></tr>
 <tr><td>20</td><td>tBodyAccJerkstdZ</td><td>num</td></tr>
@@ -218,4 +217,4 @@ column	name				type		comment
 66 	fBodyBodyGyroMagstd     	num
 67 	fBodyBodyGyroJerkMagmean	num
 68 	fBodyBodyGyroJerkMagstd 	num
->>>>>>> 041a99f6860e4a8b61bc38c0da8872753979c10a
+
