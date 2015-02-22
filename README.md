@@ -8,7 +8,9 @@ The scripts depends on the dplyr package. If it's not already installed install 
 > library(dplyr)
 ```
 Copy the file run_analysis.R to your R working directory. Use the command getwd() to find out where the working directory is
-and setwd(dir) to set it. Load the file run_analysis.R
+and setwd(dir) to set it. 
+
+Load the file run_analysis.R
 ```
 > source("run_analysis.R")
 ```
