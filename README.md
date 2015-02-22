@@ -25,7 +25,7 @@ Or you could download the data yourself from https://d396qusza40orc.cloudfront.n
 and unzip the file so that the files resides in the directory "your working directory/data/UCI HAR Dataset".
 
 ##Create the tidy dataset
-Run thefollowing command to create the dataset finaldata and save it to the file "your working directory/data/finaldata.txt"
+Run the following command to create the dataset finaldata and save it to the file "your working directory/data/finaldata.txt"
 ```
 > createTidyDataset()
 ```
