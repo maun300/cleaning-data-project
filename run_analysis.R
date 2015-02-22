@@ -1,15 +1,15 @@
 # The file contains the functions needed to create the tidy data set that is used
-# in the project for the Coursera course Getting and cleaning data.
+# in the project for the Coursera course "Getting and cleaning data".
 
 # Downloads the zip file with the data and unzips it in the directory "working directory/data"
 # The directory data is created if it not exists.
 downloadData <- function() {
-    # Check if data directory exists. Creat it if it's not.
+    # Check if data directory exists. Create it if it's not.
     if (!file.exists("data")) {
         dir.create("data")
     }
 
-    # Down load the file
+    # Download the file
     fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
     download.file(fileUrl, destfile = "./data/dataset.zip", method = "curl")
     dateDownloaded <- date()
@@ -71,7 +71,7 @@ createTidyDataset <- function() {
     colnames(data) <- make.names(names(data), unique=TRUE)
     colnames(data) <- gsub("\\.", "", names(data))
 
-    # create final dataset with the with the average of each variable for each activity and each subject.
+    # create final dataset with the average of each variable for each activity and each subject.
     finaldata <- group_by(data, activity, subjectid)
     finaldata <- summarise_each(finaldata, funs(mean))
     
