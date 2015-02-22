@@ -69,10 +69,17 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroJerkMean
 
 ##Code book
+The dataset was created by:
+1. The test data was read into a data frame. The subject id and activity id was added to the data frame.
+2. The training data was read into a data frame in the way.
+3. The test and traing data was combined into one data frame.
+4. The column names was read from the file features.txt and added to the data frame.
+5. Only the columns with std() or mean() in the name and subject id and activity id are kept. All other columns are removed.
+6. The activity id column are replaced with a column with the activity names which are read from the file activity_labels.txt.
+7. The column names are changed to valid R names.
+8. The dataset is created by taking the mean of each column grouped by activity and subject.
 
 Units: Variables are normalized and bounded within [-1,1].
-
-The variables are the mean of the mean and standard deviation for each feature grouped by activity and subject.
 
 <table>
 <tr>
