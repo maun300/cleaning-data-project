@@ -1,4 +1,4 @@
-# codebook
+#Code book
 
 ##Study design
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
@@ -126,24 +126,24 @@ The variables are the mean of the mean and standard deviation for each feature g
 <tr><td>46</td><td>fBodyAccstdX</td><td>num</td><td>&nbsp;</td></tr>
 <tr><td>47</td><td>fBodyAccstdY</td><td>num</td><td>&nbsp;</td></tr>
 <tr><td>48</td><td>fBodyAccstdZ</td><td>num</td><td>&nbsp;</td></tr>
-<tr><td>49</td><td>fBodyAccJerkmeanX</td><td>num</td></tr>
-<tr><td>50</td><td>fBodyAccJerkmeanY</td><td>num</td></tr>
-<tr><td>51</td><td>fBodyAccJerkmeanZ</td><td>num</td></tr>
-<tr><td>52</td><td>fBodyAccJerkstdX</td><td>num</td></tr>
-<tr><td>53</td><td>fBodyAccJerkstdY</td><td>num</td></tr>
-<tr><td>54</td><td>fBodyAccJerkstdZ</td><td>num</td></tr>
-<tr><td>55</td><td>fBodyGyromeanX</td><td>num</td></tr>
-<tr><td>56</td><td>fBodyGyromeanY</td><td>num</td></tr>
-<tr><td>57</td><td>fBodyGyromeanZ</td><td>num</td></tr>
-<tr><td>58</td><td>fBodyGyrostdX</td><td>num</td></tr>
-<tr><td>59</td><td>fBodyGyrostdY</td><td>num</td></tr>
-<tr><td>60</td><td>fBodyGyrostdZ</td><td>num</td></tr>
-<tr><td>61</td><td>fBodyAccMagmean</td><td>num</td></tr>
-<tr><td>62</td><td>fBodyAccMagstd</td><td>num</td></tr>
-<tr><td>63</td><td>fBodyBodyAccJerkMagmean</td><td>num</td></tr>
-<tr><td>64</td><td>fBodyBodyAccJerkMagstd</td><td>num</td></tr>
-<tr><td>65</td><td>fBodyBodyGyroMagmean</td><td>num</td></tr>
-<tr><td>66</td><td>fBodyBodyGyroMagstd</td><td>num</td></tr>
-<tr><td>67</td><td>fBodyBodyGyroJerkMagmean<td>num</td></tr>
-<tr><td>68</td><td>fBodyBodyGyroJerkMagstd</td><td>num</td></tr>
+<tr><td>49</td><td>fBodyAccJerkmeanX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>50</td><td>fBodyAccJerkmeanY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>51</td><td>fBodyAccJerkmeanZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>52</td><td>fBodyAccJerkstdX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>53</td><td>fBodyAccJerkstdY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>54</td><td>fBodyAccJerkstdZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>55</td><td>fBodyGyromeanX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>56</td><td>fBodyGyromeanY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>57</td><td>fBodyGyromeanZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>58</td><td>fBodyGyrostdX</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>59</td><td>fBodyGyrostdY</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>60</td><td>fBodyGyrostdZ</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>61</td><td>fBodyAccMagmean</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>62</td><td>fBodyAccMagstd</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>63</td><td>fBodyBodyAccJerkMagmean</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>64</td><td>fBodyBodyAccJerkMagstd</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>65</td><td>fBodyBodyGyroMagmean</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>66</td><td>fBodyBodyGyroMagstd</td><td>num</td><td>&nbsp;</td></tr>
+<tr><td>67</td><td>fBodyBodyGyroJerkMagmean<td>num</td><td>&nbsp;</td></tr>
+<tr><td>68</td><td>fBodyBodyGyroJerkMagstd</td><td>num</td><td>&nbsp;</td></tr>
 </table>
