@@ -70,6 +70,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ##Code book
 The dataset was created by:
+
 1. The test data was read into a data frame. The subject id and activity id was added to the data frame.
 2. The training data was read into a data frame in the way.
 3. The test and traing data was combined into one data frame.
